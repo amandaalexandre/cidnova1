@@ -1,0 +1,23 @@
+header {
+    background-color: var(--escuro);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+
+.header__logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}

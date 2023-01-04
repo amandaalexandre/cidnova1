@@ -1,0 +1,21 @@
+.Equipe {
+    display: grid;
+    padding: 0;
+    grid-template-columns: repeat(2, 1fr);
+    color: white;
+    gap: 0;
+}
+
+.equipe__card {
+    background-color: var(--escuro);
+    font-size: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--titulo);
+}
+
+.equipe__imagem {
+    width: 300px;
+}
+

@@ -1,8 +1,11 @@
 import React from 'react'
+import '../assets/styles/Footer.css'
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <footer>
+      Todos os direitos reservados | Desenvolvido por Amanda Vieira
+    </footer>
   )
 }
 

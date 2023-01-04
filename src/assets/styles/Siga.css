@@ -1,0 +1,44 @@
+.Siga {
+    padding: 2rem;
+    background-color: var(--escuro);
+    color: white;
+}
+
+.siga__grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.siga__form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.siga__logo {
+    width: 256px;
+}
+
+.siga__input {
+    background-color: transparent;
+    border: 2px solid var(--vermelho-escuro);
+    
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.siga__botoes {
+    display: flex;
+    gap: 1rem;
+}
+
+.siga__botao {
+    background-color: var(--vermelho-escuro);
+    color: white;
+    width: 120px;
+    padding: 1rem;
+}
