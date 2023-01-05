@@ -1,23 +1,49 @@
 header {
-    background-color: var(--escuro);
+    background-color: var(--vermelho-escuro);
     color: #fff;
+    height: 3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    z-index: 1;
+    font-family: var(--titulo);
 }
 
+header a {
+    text-decoration: none;
+    color: white;
+}
 
-
-.header__logo {
+.header__title {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 1rem;
 }
 
+.header__logo {
+    width: 128px;
+    z-index: 2;
+}
+
 .header__menu {
     display: flex;
     justify-content: flex-end;
-    gap: 1rem;
+    gap: 0;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+.header__link {
+
+    width: 150px;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__link:hover {
+    background-color: var(--escuro);
+    cursor: pointer;
 }
