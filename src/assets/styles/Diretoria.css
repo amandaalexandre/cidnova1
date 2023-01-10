@@ -1,0 +1,41 @@
+.diretoria {
+    padding: 3rem 0;
+    color: white;
+}
+
+.diretoria > * {
+    padding: 1rem;
+}
+
+.diretoria__grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: space-between;
+}
+
+.diretor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.diretor__imagem {
+    object-fit:cover;
+    width: 500px;
+    height: 500px;
+}
+
+.diretor__descricao {
+    width: 500px;
+    margin-bottom: 3rem;
+    background-color: var(--vermelho-escuro);
+} 
+
+@media (min-width: 768px) {
+    .diretoria__grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
