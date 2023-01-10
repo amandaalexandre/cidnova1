@@ -2,5 +2,8 @@ footer {
     background-color: var(--vermelho-escuro);
     color: white;
     padding: 2rem;
-    
+}
+
+footer a {
+    color: white;
 }

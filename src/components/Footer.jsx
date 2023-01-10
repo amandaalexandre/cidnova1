@@ -4,7 +4,7 @@ import '../assets/styles/Footer.css'
 function Footer() {
   return (
     <footer>
-      Todos os direitos reservados | Desenvolvido por Amanda Vieira
+      Todos os direitos reservados | Desenvolvido por <a href="https://www.linkedin.com/in/amandavieiradev">Amanda Vieira</a>
     </footer>
   )
 }
