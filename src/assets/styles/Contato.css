@@ -28,7 +28,7 @@ input[type=text], input[type=email], input[type=phone], textarea {
 button {
     min-width: 200px;
     max-width: 250px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     background-color: var(--vermelho-escuro);
     color: white;
     display:  flex;
