@@ -22,6 +22,7 @@
 
 .diretor__imagem {
     object-fit:cover;
+    object-position: 0 0;
     width: 500px;
     height: 500px;
 }

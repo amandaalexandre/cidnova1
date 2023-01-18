@@ -13,21 +13,16 @@
 }
 
 textarea {
-    font-size: 1.5rem;
     height: 300px;
 }
 
 input[type=text], input[type=email], input[type=phone], textarea {
-    @apply text-white border border-red-800 rounded-md;
+    @apply text-white border border-red-800 rounded-md p-1 bg-transparent;
     width: 100%;
-    border: 3px solid var(--vermelho-escuro);
-    background-color: transparent;
-    color: white;
-    padding: 0.5rem;
 }
 
 button {
-    @apply bg-red-500 text-white hover:bg-red-800 border border-red-800 rounded-md;
+    @apply bg-red-500 text-white hover:bg-red-800 border border-red-800 rounded-md p-px;
     min-width: 200px;
     max-width: 250px;
     height: 70px;

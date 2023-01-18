@@ -6,4 +6,9 @@ footer {
 
 footer a {
     color: white;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    font-weight: 800;
 }
