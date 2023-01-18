@@ -35,10 +35,6 @@ h1, h2, h3 {
   font-family: var(--titulo);
 }
 
-h1 {
-  font-size: 90px;
-}
-
-h2 {
-  font-size: 45px;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
