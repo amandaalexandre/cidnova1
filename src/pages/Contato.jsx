@@ -11,7 +11,7 @@ function Contato() {
    const sendEmail = (e) => {
      e.preventDefault();
  
-     emailjs.sendForm('service_c8hnpx5', 'portfolio', form.current, 'R2WL_K0GmVashq23k')
+     emailjs.sendForm('service_aeq0uqs', 'template_w0m4ijo', form.current, 'R2WL_K0GmVashq23k')
        .then((result) => {
          // Shows confirmation message
          alert("Mensagem enviada com sucesso!")
