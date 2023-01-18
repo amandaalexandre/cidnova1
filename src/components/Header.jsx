@@ -1,10 +1,15 @@
 import React from 'react'
 import '../assets/styles/Header.css'
+import { useState } from 'react'
 import Logo from '../assets/images/logo.png'
 import { Link } from 'react-router-dom'
+import { FaBars } from 'react-icons/fa'
 
 function Header() {
+  const [isMobileShowing, setIsMobileShowing] = useState(false);
+ 
   return (
+    <div>
     <header>
       <div className='header__title'>
         <img src={Logo} className='header__logo' />
@@ -28,24 +33,34 @@ function Header() {
         </ul>
       </nav>
 
-    <div class="lg:hidden flex items-center">
-      <button class="outline-none mobile-menu-button">
-        <svg
-          class="w-6 h-6 text-white"
-          x-show="!showMenu"
-          fill="none"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-        <path d="M4 6h16M4 12h16M4 18h16"></path>
-        </svg>
-      </button>
+    <div className="lg:hidden flex items-center cursor-pointer">
+      <FaBars onClick={() => setIsMobileShowing(!isMobileShowing)}/>
     </div>
 
+    
+
     </header>
+
+    {/* Mobile menu */}
+    <div className={isMobileShowing ? "header__mobile" : "hidden"}>
+      <ul>
+        <li className="active">
+        <Link to="/" className="block text-xl px-2 py-4 text-white bg-red-500 font-semibold">HOME</Link>
+        </li>
+
+        <li>
+          <Link to="/jogadores" className="block text-xl px-2 py-4 hover:bg-red-500 transition duration-300">JOGADORES</Link>
+          </li>
+        <li>
+        <Link to="/diretoria" className="block text-xl px-2 py-4 hover:bg-red-500 transition duration-300">DIRETORIA</Link>
+          </li>
+        <li>
+        <Link to="/contato" className="block text-xl px-2 py-4 hover:bg-red-500 transition duration-300">CONTATO</Link>
+          </li>
+      </ul>
+    </div>
+
+    </div>
   )
 }
 

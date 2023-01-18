@@ -53,3 +53,11 @@ header a {
     background-color: var(--escuro);
     cursor: pointer;
 }
+
+.hidden {
+    display: none;
+}
+
+.header__mobile {
+    font-family: var(--titulo);
+}
