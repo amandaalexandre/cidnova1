@@ -2,6 +2,7 @@ import React, {useRef} from 'react'
 import emailjs from '@emailjs/browser'
 import '../assets/styles/Contato.css'
 import {IoIosSend} from 'react-icons/io'
+import {RxReset} from 'react-icons/rx'
 
 function Contato() {
    // EmailJS
@@ -38,10 +39,16 @@ function Contato() {
                 <input type="phone" name="user_phone" placeholder='(xx) xx xxxx-xxxx'/>
                 <label>Mensagem</label>
                 <textarea name="message" placeholder='Diga oi!'/>
-                <button type="submit" value="Enviar">
-                    <IoIosSend/>
-                    &nbsp; Enviar
-                </button>
+                <div className='flex flex-row gap-2'>
+                  <button type="submit" value="Enviar">
+                      <IoIosSend/> Enviar
+                  </button>
+
+                  <button type='reset' value="Limpar">
+                    <RxReset/> Limpar
+                  </button>
+                </div>
+                
             </form>
     </main>
   )

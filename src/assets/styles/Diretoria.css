@@ -1,23 +1,13 @@
-.diretoria {
-    padding: 3rem 0;
-    color: white;
-}
-
 .diretoria > * {
     padding: 1rem;
 }
 
 .diretoria__grid {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: space-between;
+    @apply: flex flow-col;
 }
 
 .diretor {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    @apply: flex flex-col;
 }
 
 .diretor__imagem {

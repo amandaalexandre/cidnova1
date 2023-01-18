@@ -19,9 +19,9 @@
 
   --texto: 'Chivo', sans-serif;
   --titulo: 'Bebas Neue', sans-serif;
-  font-size: 24px;
+
   font-family: var(--texto);
-  line-height: 36px;
+  font-size: 24px;
 }
 
 h1, h2, h3 {
@@ -32,7 +32,10 @@ h1, h2, h3 {
 
 @layer base {
   body {
-    @apply bg-black;
+    @apply bg-black text-white;
+  }
+  main {
+    @apply py-6;
   }
   h1 {
     @apply text-5xl;
