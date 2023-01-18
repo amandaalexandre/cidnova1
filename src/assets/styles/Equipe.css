@@ -33,7 +33,21 @@
 }
 
 .equipe__titulo {
+    width: 100%;
+    text-align: start;
     background-image: url('../images/fundo-red.png');
     background-position: center;
 }
 
+@media (max-width:1000px) {
+    .Equipe {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .equipe__imagem {
+        z-index: 2;
+        height: 20vh;
+    }
+}

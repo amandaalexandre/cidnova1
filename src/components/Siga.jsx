@@ -6,7 +6,7 @@ import {FaFacebookF, FaInstagram} from 'react-icons/fa'
 function Siga() {
   return (
     <section className='Siga'>
-      <h1>FALE CONOSCO</h1>
+      <h1>SIGA-NOS</h1>
       <br/>
       <div className='siga__grid flex flex-row  max-md:flex-col gap-2 max-md: gap-4'>
         
