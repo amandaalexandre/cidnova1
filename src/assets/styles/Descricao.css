@@ -1,0 +1,13 @@
+.Descricao a {
+    color: var(--vermelho);
+    text-decoration: underline;
+}
+
+.descricao__imgcontainer {
+    
+}
+
+.descricao__img {
+    width: 90%;
+    box-shadow: -10px -10px var(--vermelho);
+}
