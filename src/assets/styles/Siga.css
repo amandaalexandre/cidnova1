@@ -1,34 +1,28 @@
 .Siga {
-    padding: 2rem;
+    padding: 2rem 0;
     background-color: var(--escuro);
     color: white;
 }
 
-.siga__grid {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 1.5rem;
-}
-
-.siga__endereco {
-    width: 30vw;
+/* .siga__endereco {
+    @apply max-sm:w-auto;
     text-align: left;
     font-size: 0.7rem;
 }
 
 .siga__redes {
-    width: 30vw;
+    @apply max-w-md max-sm:w-auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: right;
     text-align: right;
-}
+} */
 
 .siga__logo {
-    width: 200px;
-}
+    max-width: 200px;
+    max-height: 200px;
+}  
 
 .siga__botoes {
     display: flex;

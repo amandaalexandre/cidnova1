@@ -8,10 +8,10 @@ function Header() {
     <header>
       <div className='header__title'>
         <img src={Logo} className='header__logo' />
-        <h2>NOVA CIDADE</h2>
+        <h2 className='header__nome'>NOVA CIDADE</h2>
       </div>
       
-      <nav >
+      <nav className='max-lg:hidden'>
         <ul className='header__menu'>
           <li className='header__link'>
             <Link to="/">HOME</Link>
@@ -27,6 +27,24 @@ function Header() {
           </li>
         </ul>
       </nav>
+
+    <div class="lg:hidden flex items-center">
+      <button class="outline-none mobile-menu-button">
+        <svg
+          class="w-6 h-6 text-white"
+          x-show="!showMenu"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+        <path d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+    </div>
+
     </header>
   )
 }

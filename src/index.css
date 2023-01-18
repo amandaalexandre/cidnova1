@@ -34,9 +34,6 @@ h1, h2, h3 {
   body {
     @apply bg-black text-white;
   }
-  main {
-    @apply py-6;
-  }
   h1 {
     @apply text-5xl;
   }

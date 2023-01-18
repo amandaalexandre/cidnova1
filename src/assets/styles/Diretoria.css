@@ -1,3 +1,7 @@
+.diretoria {
+    padding-top: 3rem;
+}
+
 .diretoria > * {
     padding: 1rem;
 }
@@ -23,7 +27,7 @@
     background-color: var(--vermelho-escuro);
 } 
 
-@media (min-width: 768px) {
+@media (min-width: 1100px) {
     .diretoria__grid{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
