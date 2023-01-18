@@ -18,6 +18,7 @@ function Header() {
       
       <nav className='max-lg:hidden'>
         <ul className='header__menu'>
+          
           <li className='header__link'>
             <Link to="/">HOME</Link>
           </li>

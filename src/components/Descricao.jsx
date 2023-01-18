@@ -10,7 +10,7 @@ function Descricao() {
 
         <div className='flex flex-row max-lg:flex-col gap-6'>
    
-            <div className='descricao__imgcontainer basis-1/3 grow-0'>   
+            <div className='basis-1/3 grow-0'>   
             <img src={ImgClube} className='descricao__img w-auto justify-center'/>
             </div>
             
