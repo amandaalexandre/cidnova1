@@ -12,23 +12,16 @@
   /* global variables */
   --escuro: #000;
   --vermelho-escuro: #9a030a;
-  --vermelho: #b70001;
+  --vermelho: #b70001; 
   --cinza-claro: #d3c8cb;
   --cinza: #909091;
-  --cinza-escuro: #473c44;
+  --cinza-escuro: #473c44; 
 
   --texto: 'Chivo', sans-serif;
   --titulo: 'Bebas Neue', sans-serif;
-
-  background-color: var(--escuro);
-  font-family: var(--texto);
   font-size: 24px;
+  font-family: var(--texto);
   line-height: 36px;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
 }
 
 h1, h2, h3 {
@@ -36,5 +29,17 @@ h1, h2, h3 {
 }
 
 @tailwind base;
+
+@layer base {
+  body {
+    @apply bg-black;
+  }
+  h1 {
+    @apply text-5xl;
+  }
+  h2 {
+    @apply text-3xl;
+  }
+}
 @tailwind components;
 @tailwind utilities;
