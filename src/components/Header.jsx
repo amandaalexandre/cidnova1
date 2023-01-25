@@ -4,6 +4,7 @@ import { useState } from 'react'
 import Logo from '../assets/images/logo.png'
 import { Link } from 'react-router-dom'
 import { FaBars } from 'react-icons/fa'
+import { IconContext } from 'react-icons/lib'
 
 function Header() {
   const [isMobileShowing, setIsMobileShowing] = useState(false);
@@ -34,11 +35,12 @@ function Header() {
         </ul>
       </nav>
 
-    <div className="lg:hidden flex items-center cursor-pointer">
-      <FaBars onClick={() => setIsMobileShowing(!isMobileShowing)}/>
-    </div>
-
-    
+    <IconContext.Provider value={{size: "2em"}}>
+      <div className="lg:hidden flex items-center cursor-pointer">
+        <FaBars onClick={() => setIsMobileShowing(!isMobileShowing)}/>
+      </div>
+    </IconContext.Provider>
+   
 
     </header>
 
