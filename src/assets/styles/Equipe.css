@@ -42,6 +42,9 @@
 
 .equipe__titulo {
     width: 100%;
+    position: absolute;
+    bottom: 10px;
+    left:0px;
     text-align: start;
     background-image: url('../images/fundo-red.png');
     background-position: center;
