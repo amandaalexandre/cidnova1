@@ -29,6 +29,9 @@ function Contato() {
   return (
     <main className='contato'>
       <h1>CONTATO</h1>
+
+      <p>Se você quiser entrar em contato com a gente, pode preencher este formulário que ou enviar mensagem pelo <a href="#">Facebook</a> ou <a href="#">Instagram</a>.</p>
+
       {/* Contact form */}
       <form ref={form} onSubmit={sendEmail} id="contact-form" className='contato__form'>
                 <label>Nome</label>
@@ -50,6 +53,12 @@ function Contato() {
                 </div>
                 
             </form>
+
+            <h2>OU NOS ALCANCE NAS REDES SOCIAIS</h2>
+            <div className='flex flex-row w-auto gap-3 justify-center items-center max-md:flex-col'>
+              FACEBOOK......
+              INSTAGRAM
+            </div>
     </main>
   )
 }

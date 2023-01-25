@@ -2,6 +2,10 @@
     padding-top: 3rem;
 }
 
+.contato a {
+    color: var(--vermelho);
+}
+
 .contato__form {
     margin: 2rem;
     padding: 1.5rem 0;
