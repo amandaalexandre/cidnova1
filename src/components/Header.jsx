@@ -13,7 +13,7 @@ function Header() {
     <header>
       <div className='header__title'>
         <img src={Logo} className='header__logo' />
-        <h2 className='header__nome'>NOVA CIDADE</h2>
+        <h2 className='header__nome'><Link to="/">NOVA CIDADE</Link></h2>
       </div>
       
       <nav className='max-lg:hidden'>
