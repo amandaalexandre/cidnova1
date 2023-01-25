@@ -12,7 +12,7 @@ function Header() {
     <div>
     <header>
       <div className='header__title'>
-        <img src={Logo} className='header__logo' />
+      <Link to="/"><img src={Logo} className='header__logo' /></Link>
         <h2 className='header__nome'><Link to="/">NOVA CIDADE</Link></h2>
       </div>
       

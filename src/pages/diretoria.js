@@ -27,7 +27,7 @@ export const diretoria = [
         id: 5,
         nome: "Edmilson Reis",
         cargo: "Administrador",
-        imagem: "diretoria/edmilson-reis-administrador.jpeg"
+        imagem: "diretoria/edmilson-reis-administrador.png"
     },
     {
         id: 6,
