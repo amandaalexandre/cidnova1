@@ -24,6 +24,14 @@
     padding: 0 0 0 1rem;
 }
 
+.equipe__jogadores {
+    background-image: url(../images/c1.png);
+}
+
+.equipe__diretoria {
+    background-image: url(../images/c2.png);
+}
+
 .equipe__imagem {
     position: absolute;
     bottom: 0;
