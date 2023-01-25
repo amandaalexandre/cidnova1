@@ -12,7 +12,7 @@ function Jogadores() {
     <main className='jogadores'>
       <h1>JOGADORES</h1>
       
-      <div className='grid grid-cols-2 grid-flow-row my-3'>
+      <div className='grid grid-cols-2 grid-flow-row my-3 max-lg:flex max-lg:flex-col'>
         <img src={jogador1} className='w-auto p-3' />
         <img src={jogador2} className='w-auto p-3' />
         <img src={jogador3} className='w-auto p-3' />
