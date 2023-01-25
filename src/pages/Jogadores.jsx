@@ -22,7 +22,7 @@ function Jogadores() {
         <img src={jogador4} className='w-auto p-3' />
 
         <div>
-        <img src={jogador5} className='w-auto p-3' />
+        <img src={jogador5} className='w-full p-3' />
         Riam<br/>
         17 anos
         </div>
