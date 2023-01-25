@@ -56,8 +56,8 @@ function Contato() {
 
             <h2>OU NOS ALCANCE NAS REDES SOCIAIS</h2>
             <div className='flex flex-row w-auto gap-3 justify-center items-center max-md:flex-col'>
-              FACEBOOK......
-              INSTAGRAM
+              <a href="https://www.facebook.com/novacidadeslz">FACEBOOK</a> ......
+              <a href="https://www.instagram.com/novacidadeslz/">INSTAGRAM</a>
             </div>
     </main>
   )
