@@ -1,0 +1,36 @@
+.Siga {
+    padding: 2rem 0;
+    background-color: var(--escuro);
+    color: white;
+}
+
+/* .siga__endereco {
+    @apply max-sm:w-auto;
+    text-align: left;
+    font-size: 0.7rem;
+}
+
+.siga__redes {
+    @apply max-w-md max-sm:w-auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: right;
+    text-align: right;
+} */
+
+.siga__logo {
+    max-width: 200px;
+    max-height: 200px;
+}  
+
+.siga__botoes {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.siga__botoes_redes {
+    color: white;
+    font-size: 1.5rem;
+}

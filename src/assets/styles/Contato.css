@@ -1,0 +1,38 @@
+.contato {
+    padding-top: 3rem;
+}
+
+.contato a {
+    color: var(--vermelho);
+}
+
+.contato__form {
+    margin: 2rem;
+    padding: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+textarea {
+    height: 300px;
+} 
+
+input[type=text], input[type=email], input[type=phone], textarea {
+    @apply text-white border border-red-800 rounded-lg p-2.5 bg-transparent focus:border-blue-500 focus:ring-red-800;
+    width: 100%;
+}
+
+
+
+button[type=submit], button[type=reset] {
+    @apply bg-red-800 text-white text-lg hover:bg-red-800 border border-red-800 rounded-md p-px;
+    min-width: 200px;
+    max-width: 250px;
+    height: 70px;
+    display:  flex;
+    justify-content: space-around;
+    align-items: center;
+}  

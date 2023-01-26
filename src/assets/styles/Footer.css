@@ -1,0 +1,14 @@
+footer {
+    background-color: var(--vermelho-escuro);
+    color: white;
+    padding: 2rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    font-weight: 800;
+}

@@ -1,0 +1,8 @@
+.jogadores {
+    padding: 3rem;
+    color: white;
+}
+
+.jogadores a {
+    color: var(--vermelho);
+}

@@ -1,0 +1,64 @@
+.Equipe {
+    display: grid;
+    padding: 0;
+    grid-template-columns: repeat(2, 1fr);
+    color: white;
+    gap: 1px;
+}
+
+.Equipe a {
+    color: white;
+    text-decoration: none;
+}
+
+.equipe__card {
+    background-color: var(--escuro);
+    font-size: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--titulo);
+    height: 20vh;
+    z-index: 1;
+    position: relative;
+    padding: 0 0 0 1rem;
+}
+
+.equipe__jogadores {
+    background-image: url(../images/c1.png);
+}
+
+.equipe__diretoria {
+    background-image: url(../images/c2.png);
+}
+
+.equipe__imagem {
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    z-index: 2;
+    height: 30vh;
+}
+
+.equipe__titulo {
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    left:0px;
+    text-align: start;
+    background-image: url('../images/fundo-red.png');
+    background-position: center;
+}
+
+@media (max-width:1000px) {
+    .Equipe {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .equipe__imagem {
+        z-index: 2;
+        height: 20vh;
+    }
+}
