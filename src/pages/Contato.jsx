@@ -32,7 +32,7 @@ function Contato() {
     <main className='contato'>
       <h1>CONTATO</h1>
 
-      <p>Se você quiser entrar em contato com a gente, pode preencher este formulário que ou enviar mensagem pelo <a href="#">Facebook</a> ou <a href="#">Instagram</a>.</p>
+      <p>Se você quiser entrar em contato com a gente, pode preencher este formulário que ou enviar mensagem pelo <a href="https://www.facebook.com/novacidadeslz" target="_blank">Facebook</a> ou <a href="https://www.instagram.com/novacidadeslz/" target="_blank">Instagram</a>.</p>
 
       {/* Contact form */}
       <form ref={form} onSubmit={sendEmail} id="contact-form" className='contato__form'>
@@ -58,8 +58,8 @@ function Contato() {
 
             <h2>OU NOS ALCANCE NAS REDES SOCIAIS</h2>
             <div className='flex flex-row w-auto gap-3 py-4 justify-center items-center max-md:flex-col'>
-              <a href="https://www.facebook.com/novacidadeslz"> <Facebook/></a>            
-              <a href="https://www.instagram.com/novacidadeslz/"> <Instagram/></a>
+              <a href="https://www.facebook.com/novacidadeslz" target="_blank"> <Facebook/></a>            
+              <a href="https://www.instagram.com/novacidadeslz/" target="_blank"> <Instagram/></a>
             </div>
     </main>
   )

@@ -25,8 +25,8 @@ function Siga() {
           <h2>REDES SOCIAIS</h2>
           <br/>
           <span className='siga__botoes max-md:justify-center'>
-            <a href="https://www.facebook.com/novacidadeslz"><FaFacebookF className='siga__botoes_redes'/></a>
-            <a href="https://www.instagram.com/novacidadeslz/"><FaInstagram className='siga__botoes_redes'/></a>
+            <a href="https://www.facebook.com/novacidadeslz" target="_blank"><FaFacebookF className='siga__botoes_redes'/></a>
+            <a href="https://www.instagram.com/novacidadeslz/" target="_blank"><FaInstagram className='siga__botoes_redes'/></a>
           </span>
           
         </div>
