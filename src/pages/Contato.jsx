@@ -4,6 +4,7 @@ import '../assets/styles/Contato.css'
 import {IoIosSend} from 'react-icons/io'
 import {RxReset} from 'react-icons/rx'
 import {FaFacebookF, FaInstagram} from 'react-icons/fa'
+import {BsWhatsapp} from 'react-icons/bs'
 
 function Contato() {
    // EmailJS
@@ -31,7 +32,17 @@ function Contato() {
     <main className='contato'>
       <h1>CONTATO</h1>
 
-      <p>Se você quiser entrar em contato com a gente, pode preencher este formulário que ou enviar mensagem pelo <a href="https://www.facebook.com/novacidadeslz" target="_blank">Facebook</a> ou <a href="https://www.instagram.com/novacidadeslz/" target="_blank">Instagram</a>.</p>
+      <p>Se você quiser entrar em contato com a gente, pode <a href="https://wa.me/559881433881?text=Olá!%20Quero%20falar%20com%20o%20clube%20Nova%20Cidade.">nos falar pelo WhastApp</a>, preencher este formulário que ou enviar mensagem pelo <a href="https://www.facebook.com/novacidadeslz" target="_blank">Facebook</a> ou <a href="https://www.instagram.com/novacidadeslz/" target="_blank">Instagram</a>.</p>
+
+      <br/>
+      
+      {/* Botão do WhatsApp */}
+      <a href="https://wa.me/559881433881?text=Olá!%20Quero%20falar%20com%20o%20clube%20Nova%20Cidade.">
+        <div className='botao__whatsapp'>
+        <BsWhatsapp/>
+        
+        Falar pelo WhatsApp</div>
+      </a>
 
       {/* Contact form */}
       <form ref={form} onSubmit={sendEmail} id="contact-form" className='contato__form'>
