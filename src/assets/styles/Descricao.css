@@ -5,5 +5,5 @@
 
 .descricao__img {
     width: 90%;
-    box-shadow: -10px -10px var(--vermelho);
+    box-shadow: 10px 10px var(--vermelho);
 }
