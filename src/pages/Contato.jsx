@@ -1,10 +1,9 @@
 import React, {useRef} from 'react'
 import emailjs from '@emailjs/browser'
 import '../assets/styles/Contato.css'
-import Facebook from '../components/Facebook'
-import Instagram from '../components/Instagram'
 import {IoIosSend} from 'react-icons/io'
 import {RxReset} from 'react-icons/rx'
+import {FaFacebookF, FaInstagram} from 'react-icons/fa'
 
 function Contato() {
    // EmailJS
@@ -58,8 +57,12 @@ function Contato() {
 
             <h2>OU NOS ALCANCE NAS REDES SOCIAIS</h2>
             <div className='flex flex-row w-auto gap-3 py-4 justify-center items-center max-md:flex-col'>
-              <a href="https://www.facebook.com/novacidadeslz" target="_blank"> <Facebook/></a>            
-              <a href="https://www.instagram.com/novacidadeslz/" target="_blank"> <Instagram/></a>
+              <a href="https://www.facebook.com/novacidadeslz" target="_blank"> 
+                <FaFacebookF className='siga__botoes_redes'/>
+              </a>            
+              <a href="https://www.instagram.com/novacidadeslz/" target="_blank"> 
+                <FaInstagram className='siga__botoes_redes'/>
+              </a>
             </div>
     </main>
   )
