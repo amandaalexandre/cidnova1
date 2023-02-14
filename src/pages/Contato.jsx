@@ -54,7 +54,7 @@ function Contato() {
                 <input type="phone" name="user_phone" placeholder='(xx) xx xxxx-xxxx'/>
                 <label>Mensagem</label>
                 <textarea name="message" placeholder='Diga oi!'/>
-                <div className='flex flex-row gap-2'>
+                <div className='w-full flex flex-row gap-2'>
                   <button type="submit" value="Enviar">
                       <IoIosSend/> Enviar
                   </button>

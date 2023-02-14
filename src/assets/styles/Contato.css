@@ -29,11 +29,9 @@ input[type=text], input[type=email], input[type=phone], textarea {
 }
 
 
-
 button[type=submit], button[type=reset] {
     @apply bg-red-800 text-white text-lg hover:bg-red-800 border border-red-800 rounded-md p-px;
-    min-width: 200px;
-    max-width: 250px;
+    width: 50%;
     height: 70px;
     display:  flex;
     justify-content: space-around;
@@ -45,7 +43,7 @@ button[type=submit], button[type=reset] {
     @apply  text-white text-lg border-white rounded-md p-px;
     background-color: #25D366;
     font-size: 1.5rem;
-    width: 500px;
+/*     width: 500px; */
     padding: 1rem;
     display:  flex;
     justify-content: space-around;
