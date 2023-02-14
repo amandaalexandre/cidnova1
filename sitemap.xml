@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <urL>
+        <loc>https://novacidade.com.br/</loc>
+        <lastmod>2023-01-14</lastmod>
+        <changefreq>anual</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <urL>
+        <loc>https://novacidade.com.br/jogadores</loc>
+        <lastmod>2023-01-14</lastmod>
+        <changefreq>monthly</changefreq>
+    </url>
+
+        <urL>
+        <loc>https://novacidade.com.br/diretoria</loc>
+        <lastmod>2023-01-14</lastmod>
+        <changefreq>anual</changefreq>
+    </url>
+
+    <urL>
+        <loc>https://novacidade.com.br/contato</loc>
+        <lastmod>2023-01-14</lastmod>
+        <changefreq>anual</changefreq>
+    </url>
+
+</urlset>
