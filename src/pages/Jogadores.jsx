@@ -9,6 +9,7 @@ import jogador5 from '../assets/images/jogador5.jpg'
 import jogador6 from '../assets/images/jogador6.jpg'
 import jogador7 from '../assets/images/jogador7.jpg'
 import jogador8 from '../assets/images/jogador8.jpg'
+import jogadores from '../assets/images/atletas-sub17.jpeg'
 
 function Jogadores() {
   return (
@@ -29,9 +30,10 @@ function Jogadores() {
         <img src={jogador6} className='w-auto p-3' />
         <img src={jogador7} className='w-auto p-3' />
         <img src={jogador8} className='w-auto p-3' />
+        <img src={jogadores} className='w-auto p-3' />
       </div>
       
-      <h2>Quer se juntar ao nosso time? <Link to="/contato">FALE COM A GENTE.</Link></h2>
+      <h3>Quer se juntar ao nosso time? <Link to="/contato">FALE COM A GENTE.</Link></h3>
       </main>
   )
 }
