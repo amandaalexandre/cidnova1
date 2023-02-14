@@ -8,7 +8,7 @@ function Siga() {
     <section className='Siga'>
       <h1>SIGA-NOS</h1>
       <br/>
-      <div className='siga__grid flex flex-row  max-md:flex-col gap-2 max-md: gap-4'>
+      <div className='siga__grid flex flex-row  max-md:flex-col gap-2 max-md:gap-4'>
         
         <div className='siga__endereco basis-1/3 grow text-left max-md:text-center'>
           <h2>ENDEREÇO</h2>
