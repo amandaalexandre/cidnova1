@@ -3,28 +3,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>https://novacidade.com.br/</loc>
+        <loc>https://novacidadeslz.com.br/</loc>
         <lastmod>2023-01-14</lastmod>
-        <changefreq>anual</changefreq>
+        <changefreq>yearly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://novacidade.com.br/jogadores</loc>
+        <loc>https://novacidadeslz.com.br/jogadores</loc>
         <lastmod>2023-01-14</lastmod>
         <changefreq>monthly</changefreq>
     </url>
 
         <url>
-        <loc>https://novacidade.com.br/diretoria</loc>
+        <loc>https://novacidadeslz.com.br/diretoria</loc>
         <lastmod>2023-01-14</lastmod>
-        <changefreq>anual</changefreq>
+        <changefreq>yearly</changefreq>
     </url>
 
     <url>
-        <loc>https://novacidade.com.br/contato</loc>
+        <loc>https://novacidadeslz.com.br/contato</loc>
         <lastmod>2023-01-14</lastmod>
-        <changefreq>anual</changefreq>
+        <changefreq>yearly</changefreq>
     </url>
 
 </urlset>
