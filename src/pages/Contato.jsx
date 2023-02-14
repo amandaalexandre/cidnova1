@@ -67,7 +67,7 @@ function Contato() {
             </form>
 
             <h2>OU NOS ALCANCE NAS REDES SOCIAIS</h2>
-            <div className='flex flex-row w-auto gap-3 py-4 justify-center items-center max-md:flex-col'>
+            <div className='flex flex-row w-auto gap-3 py-4 justify-center items-center '>
               <a href="https://www.facebook.com/novacidadeslz" target="_blank"> 
                 <FaFacebookF className='siga__botoes_redes'/>
               </a>            
