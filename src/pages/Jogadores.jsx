@@ -17,20 +17,20 @@ function Jogadores() {
       <h1>JOGADORES</h1>
       
       <div className='grid grid-cols-2 grid-flow-row my-3 max-lg:flex max-lg:flex-col'>
-        <img src={jogador1} className='w-auto p-3' />
-        <img src={jogador2} className='w-auto p-3' />
-        <img src={jogador3} className='w-auto p-3' />
-        <img src={jogador4} className='w-auto p-3' />
+        <img src={jogador1} className='w-auto p-3' alt="Jogador do Esporte Clube Nova Cidade São Luís" />
+        <img src={jogador2} className='w-auto p-3' alt="Jogador do Esporte Clube Nova Cidade São Luís" />
+        <img src={jogador3} className='w-auto p-3' alt="Jogador do Esporte Clube Nova Cidade São Luís" />
+        <img src={jogador4} className='w-auto p-3' alt="Jogador do Esporte Clube Nova Cidade São Luís" />
 
         <div>
-        <img src={jogador5} className='w-full p-3' />
+        <img src={jogador5} className='w-full p-3' alt="Jogador do Esporte Clube Nova Cidade São Luís" />
         Riam<br/>
         17 anos
         </div>
-        <img src={jogador6} className='w-auto p-3' />
-        <img src={jogador7} className='w-auto p-3' />
-        <img src={jogador8} className='w-auto p-3' />
-        <img src={jogadores} className='w-auto p-3' />
+        <img src={jogador6} className='w-auto p-3' alt="Jogador do Esporte Clube Nova Cidade São Luís" />
+        <img src={jogador7} className='w-auto p-3' alt="Jogador do Esporte Clube Nova Cidade São Luís" />
+        <img src={jogador8} className='w-auto p-3' alt="Jogador do Esporte Clube Nova Cidade São Luís" />
+        <img src={jogadores} className='w-auto p-3' alt="Jogador do Esporte Clube Nova Cidade São Luís" />
       </div>
       
       <h3>Quer se juntar ao nosso time? <Link to="/contato">FALE COM A GENTE.</Link></h3>

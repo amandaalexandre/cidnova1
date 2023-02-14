@@ -19,7 +19,7 @@ function Siga() {
           <p>Telefone: (98) 98202-9185</p>
         </div>
 
-        <img src={Logo} className="siga__logo basis-1/3 place-self-center" />
+        <img src={Logo} className="siga__logo basis-1/3 place-self-center" alt="Esporte Clube Nova Cidade Slz" />
 
         <div className='siga__redes basis-1/3 grow text-right max-md:text-center'>
           <h2>REDES SOCIAIS</h2>
