@@ -11,7 +11,7 @@ function Descricao() {
         <div className='flex flex-row max-lg:flex-col gap-6'>
    
             <div className='basis-1/3 grow-0'>   
-            <img src={ImgClube} className='descricao__img w-auto justify-center'/>
+            <img src={ImgClube} className='descricao__img w-auto justify-center' alt='Diretoria do Esporte Clube Nova Cidade São Luís'/>
             </div>
             
             <div className='basis-2/3 grow'>

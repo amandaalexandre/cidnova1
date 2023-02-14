@@ -1,5 +1,5 @@
 header {
-    @apply px-3 min-w-fit;
+    @apply px-1 min-w-fit;
     background-color: var(--vermelho-escuro);
     color: #fff;
     height: 3rem;
@@ -8,7 +8,6 @@ header {
     align-items: center;
     z-index: 1;
     font-family: var(--titulo);
-    
 }
 
 header a {
@@ -20,7 +19,7 @@ header a {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
     z-index: 2;
 }
 
