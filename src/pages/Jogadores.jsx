@@ -9,7 +9,7 @@ import jogador5 from '../assets/images/jogador5.jpg'
 import jogador6 from '../assets/images/jogador6.jpg'
 import jogador7 from '../assets/images/jogador7.jpg'
 import jogador8 from '../assets/images/jogador8.jpg'
-import jogadores from '../assets/images/atletas-sub17.jpeg'
+import jogadores from '../assets/images/jogadores.jpg'
 
 function Jogadores() {
   return (
