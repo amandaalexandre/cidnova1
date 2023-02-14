@@ -3,12 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://www.novacidadeslz.com.br",
+  "homepage": "https://novacidadeslz.com.br",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "predeploy": "vite build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
